@@ -4,15 +4,19 @@
     "module": "ES2015",
     "lib": ["DOM","DOM.Iterable","ES2015"],
     "strict": true,
-    "moduleResolution": "Node16",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
     "allowJs": true,
     "declaration": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "dist/types"
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/main.tsx"
   ]
 }
