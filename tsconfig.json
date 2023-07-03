@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ES2015",
+    "lib": ["DOM","DOM.Iterable","ES2015"],
+    "strict": true,
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"
+  ]
+}
